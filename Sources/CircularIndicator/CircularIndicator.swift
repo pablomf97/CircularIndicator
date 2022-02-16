@@ -1,15 +1,15 @@
 import SwiftUI
 
 @available(iOS 13, *)
-struct CircularIndicator: View {
+public struct CircularIndicator: View {
     
-    let title: String
-    let textColor: Color
-    let backgroundColor: Color
-    let foregroundColor: Color
-    let duration: Double
+    public var title: String
+    public var textColor: Color
+    public var backgroundColor: Color
+    public var foregroundColor: Color
+    public var duration: Double
     
-    init(
+    public init(
         title: String = "",
         textColor: Color = .black,
         backgroundColor: Color = .blue.opacity(0.3),
@@ -25,7 +25,7 @@ struct CircularIndicator: View {
     
     @State private var rotation = Angle(degrees: 0)
     
-    var body: some View {
+    public var body: some View {
         VStack {
             ZStack {
                 Circle()
