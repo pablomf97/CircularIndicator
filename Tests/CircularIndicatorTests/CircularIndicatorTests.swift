@@ -6,6 +6,6 @@ final class CircularIndicatorTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(CircularIndicator().text, "Hello, World!")
+        // XCTAssertEqual(CircularIndicator().text, "Hello, World!")
     }
 }
