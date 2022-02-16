@@ -96,7 +96,7 @@ public struct SlowCircularIndicator: View {
         VStack {
             ZStack {
                 Circle()
-                    .stroke(lineWidth: 10.0)
+                    .stroke(lineWidth: 5.0)
                     .opacity(0.3)
                     .foregroundColor(backgroundColor)
                 
@@ -104,7 +104,7 @@ public struct SlowCircularIndicator: View {
                     .trim(from: 0, to: endAmount)
                     .stroke(
                         style: StrokeStyle(
-                            lineWidth: 10.0,
+                            lineWidth: 5.0,
                             lineCap: .round,
                             lineJoin: .round
                         )
